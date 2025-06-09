@@ -49,3 +49,29 @@ This pipeline gives your LLM **awareness of context quality** — and the abilit
 ```bash
 git clone https://github.com/yourusername/corrective-rag-langgraph.git
 cd corrective-rag-langgraph
+
+```
+
+### 2. Create a virtual environment and install dependencies
+
+```bash
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+
+```
+
+
+### 3. Start Ollama and load the LLaMA 3 model
+```bash
+ollama run llama3
+```
+
+### 4. (Optional) Add Tavily API key for web search
+
+```bash
+export TAVILY_API_KEY=your-key
+
+```
+
+
